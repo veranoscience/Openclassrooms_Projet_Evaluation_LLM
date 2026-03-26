@@ -1,0 +1,355 @@
+[
+  {
+    "user_input":"Quel joueur a marqué le plus de points sur la saison ?",
+    "retrieved_contexts":[
+      "name | team_code | pts\n------------------------------------------------------------\nShai Gilgeous-Alexander | OKC | 2485.0"
+    ],
+    "response":"Shai Gilgeous-Alexander (OKC) a marqué le plus de points sur la saison avec 2485.0 points.",
+    "reference":"Shai Gilgeous-Alexander (OKC) est le meilleur marqueur de la saison avec 2 485 points au total.",
+    "faithfulness":0.6666666667,
+    "context_recall":1.0,
+    "context_precision":0.9999999999,
+    "question":"Quel joueur a marqué le plus de points sur la saison ?",
+    "question_id":"S01",
+    "category":"SIMPLE",
+    "difficulty":1
+  },
+  {
+    "user_input":"Quel joueur a le meilleur pourcentage de réussite à 3 points (minimum 100 tentatives) ?",
+    "retrieved_contexts":[
+      "name | team_code | three_pct | three_pa\n------------------------------------------------------------\nSeth Curry | CHA | 45.6 | 184.0"
+    ],
+    "response":"Seth Curry a le meilleur pourcentage de réussite à 3 points (45.6%) parmi les joueurs ayant au moins 100 tentatives (184.0 tentatives).",
+    "reference":"Seth Curry (CHA) affiche le meilleur pourcentage à 3 points avec 45,6 % sur 184 tentatives.",
+    "faithfulness":0.75,
+    "context_recall":1.0,
+    "context_precision":0.9999999999,
+    "question":"Quel joueur a le meilleur pourcentage de réussite à 3 points (minimum 100 tentatives) ?",
+    "question_id":"S02",
+    "category":"SIMPLE",
+    "difficulty":1
+  },
+  {
+    "user_input":"Quel joueur a réalisé le plus de passes décisives ?",
+    "retrieved_contexts":[
+      "name | team_code | ast\n------------------------------------------------------------\nTrae Young | ATL | 882.0"
+    ],
+    "response":"Trae Young (ATL) a réalisé le plus de passes décisives avec un total de 882.0.",
+    "reference":"Trae Young (ATL) mène la ligue en passes décisives avec 882 assists.",
+    "faithfulness":0.5,
+    "context_recall":1.0,
+    "context_precision":0.9999999999,
+    "question":"Quel joueur a réalisé le plus de passes décisives ?",
+    "question_id":"S04",
+    "category":"SIMPLE",
+    "difficulty":1
+  },
+  {
+    "user_input":"Qui a réussi le plus d'interceptions cette saison ?",
+    "retrieved_contexts":[
+      "name | team_code | stl\n------------------------------------------------------------\nDyson Daniels | ATL | 228.0"
+    ],
+    "response":"Dyson Daniels (ATL) a réussi le plus d'interceptions cette saison avec un total de 228.0.",
+    "reference":"Dyson Daniels (ATL) est le leader des interceptions avec 228 steals.",
+    "faithfulness":0.5,
+    "context_recall":1.0,
+    "context_precision":0.9999999999,
+    "question":"Qui a réussi le plus d'interceptions cette saison ?",
+    "question_id":"S05",
+    "category":"SIMPLE",
+    "difficulty":1
+  },
+  {
+    "user_input":"Quel joueur a réalisé le plus de contres ?",
+    "retrieved_contexts":[
+      "name | team_code | blk\n------------------------------------------------------------\nVictor Wembanyama | SAS | 175.0"
+    ],
+    "response":"Victor Wembanyama (SAS) avec 175 contres.",
+    "reference":"Victor Wembanyama (SAS) domine les contres avec 175 blocks sur la saison.",
+    "faithfulness":0.5,
+    "context_recall":1.0,
+    "context_precision":0.9999999999,
+    "question":"Quel joueur a réalisé le plus de contres ?",
+    "question_id":"S06",
+    "category":"SIMPLE",
+    "difficulty":1
+  },
+  {
+    "user_input":"Quel joueur a le meilleur pourcentage de lancers francs (minimum 50 matchs joués) ?",
+    "retrieved_contexts":[
+      "name | team_code | ft_pct | fta\n------------------------------------------------------------\nSam Hauser | BOS | 100.0 | 14.0"
+    ],
+    "response":"Sam Hauser (BOS) avec un pourcentage de lancers francs de 100.0%.",
+    "reference":"Sam Hauser (BOS) affiche un pourcentage parfait de 100 % aux lancers francs.",
+    "faithfulness":0.6666666667,
+    "context_recall":1.0,
+    "context_precision":0.9999999999,
+    "question":"Quel joueur a le meilleur pourcentage de lancers francs (minimum 50 matchs joués) ?",
+    "question_id":"S07",
+    "category":"SIMPLE",
+    "difficulty":1
+  },
+  {
+    "user_input":"Quel joueur a joué le plus de matchs cette saison ?",
+    "retrieved_contexts":[
+      "name | team_code | gp\n------------------------------------------------------------\nJalen Green | HOU | 82"
+    ],
+    "response":"Jalen Green a joué le plus de matchs cette saison avec 82 matchs joués.",
+    "reference":"Jalen Green (HOU) a disputé le plus grand nombre de matchs avec 82 matchs joués.",
+    "faithfulness":0.5,
+    "context_recall":1.0,
+    "context_precision":0.9999999999,
+    "question":"Quel joueur a joué le plus de matchs cette saison ?",
+    "question_id":"S08",
+    "category":"SIMPLE",
+    "difficulty":1
+  },
+  {
+    "user_input":"Quel joueur a le plus grand nombre de triple-doubles ?",
+    "retrieved_contexts":[
+      "name | team_code | td3\n------------------------------------------------------------\nNikola Jokić | DEN | 34"
+    ],
+    "response":"Nikola Jokić (DEN) a le plus grand nombre de triple-doubles avec un total de 34.",
+    "reference":"Nikola Jokić (DEN) est le leader des triple-doubles avec 34 triple-doubles.",
+    "faithfulness":0.5,
+    "context_recall":1.0,
+    "context_precision":0.9999999999,
+    "question":"Quel joueur a le plus grand nombre de triple-doubles ?",
+    "question_id":"S09",
+    "category":"SIMPLE",
+    "difficulty":1
+  },
+  {
+    "user_input":"Quel joueur a le meilleur Net Rating parmi les joueurs ayant joué au moins 50 matchs ?",
+    "retrieved_contexts":[
+      "name | team_code | netrtg | gp\n------------------------------------------------------------\nShai Gilgeous-Alexander | OKC | 16.7 | 76"
+    ],
+    "response":"Shai Gilgeous-Alexander (Net Rating : 16.7)",
+    "reference":"Shai Gilgeous-Alexander (OKC) affiche le meilleur Net Rating avec +16,7.",
+    "faithfulness":0.5,
+    "context_recall":1.0,
+    "context_precision":0.9999999999,
+    "question":"Quel joueur a le meilleur Net Rating parmi les joueurs ayant joué au moins 50 matchs ?",
+    "question_id":"S10",
+    "category":"SIMPLE",
+    "difficulty":2
+  },
+  {
+    "user_input":"Compare les statistiques moyennes de rebonds des joueurs de Boston (BOS) et de Milwaukee (MIL).",
+    "retrieved_contexts":[
+      "team_code | avg_reb\n------------------------------------------------------------\nBOS | 219.0\nMIL | 203.94736842105263"
+    ],
+    "response":"Les statistiques moyennes de rebonds des joueurs de Boston (BOS) sont de 219.0 rebonds par match, tandis que celles des joueurs de Milwaukee (MIL) sont de 203.95 rebonds par match. Boston (BOS) a donc une moyenne de rebonds supérieure à celle de Milwaukee (MIL).",
+    "reference":"Les joueurs de Boston (BOS) ont une moyenne de 219,0 rebonds par joueur contre 203,9 pour Milwaukee (MIL). Boston domine légèrement au rebond.",
+    "faithfulness":1.0,
+    "context_recall":0.5,
+    "context_precision":0.9999999999,
+    "question":"Compare les statistiques moyennes de rebonds des joueurs de Boston (BOS) et de Milwaukee (MIL).",
+    "question_id":"C01",
+    "category":"COMPLEXE",
+    "difficulty":2
+  },
+  {
+    "user_input":"Donne-moi le top 3 des joueurs ayant tenté le plus de tirs à 3 points, avec leur pourcentage de réussite.",
+    "retrieved_contexts":[
+      "name | team_code | three_pa | three_pct\n------------------------------------------------------------\nAnthony Edwards | MIN | 814.0 | 39.5\nStephen Curry | GSW | 784.0 | 39.7\nMalik Beasley | DET | 763.0 | 41.6"
+    ],
+    "response":"1. **Anthony Edwards** (MIN) - 814 tentatives à 3 points, 39.5% de réussite\n2. **Stephen Curry** (GSW) - 784 tentatives à 3 points, 39.7% de réussite\n3. **Malik Beasley** (DET) - 763 tentatives à 3 points, 41.6% de réussite",
+    "reference":"1. Anthony Edwards (MIN) : 814 tentatives, 39,5 % de réussite. 2. Malik Beasley (DET) : 320 tentatives, 41,6 % de réussite (saison partielle). 3. Stephen Curry (GSW) : 308 tentatives, 39,7 % de réussite.",
+    "faithfulness":1.0,
+    "context_recall":0.3333333333,
+    "context_precision":0.0,
+    "question":"Donne-moi le top 3 des joueurs ayant tenté le plus de tirs à 3 points, avec leur pourcentage de réussite.",
+    "question_id":"C02",
+    "category":"COMPLEXE",
+    "difficulty":2
+  },
+  {
+    "user_input":"Quels sont les 5 joueurs principaux d'OKC et leurs statistiques de points, rebonds et passes ?",
+    "retrieved_contexts":[
+      "name | pts | reb | ast\n------------------------------------------------------------\nShai Gilgeous-Alexander | 2485.0 | 380.0 | 486.0\nJalen Williams | 1490.0 | 366.0 | 352.0\nAaron Wiggins | 912.0 | 296.0 | 137.0\nIsaiah Joe | 755.0 | 192.0 | 118.0\nLuguentz Dort | 717.0 | 291.0 | 114.0"
+    ],
+    "response":"Les 5 joueurs principaux d'OKC et leurs statistiques de points, rebonds et passes sont :\n\n1. **Shai Gilgeous-Alexander** : 2485 points, 380 rebonds, 486 passes\n2. **Jalen Williams** : 1490 points, 366 rebonds, 352 passes\n3. **Aaron Wiggins** : 912 points, 296 rebonds, 137 passes\n4. **Isaiah Joe** : 755 points, 192 rebonds, 118 passes\n5. **Luguentz Dort** : 717 points, 291 rebonds, 114 passes",
+    "reference":"1. Shai Gilgeous-Alexander : 2 485 pts, 380 reb, 486 ast. 2. Jalen Williams : 1 490 pts, 366 reb, 352 ast. 3. Aaron Wiggins : 912 pts, 296 reb, 137 ast. 4. Isaiah Joe : 755 pts, 192 reb, 118 ast. 5. Luguentz Dort : 717 pts, 291 reb, 114 ast.",
+    "faithfulness":1.0,
+    "context_recall":1.0,
+    "context_precision":0.9999999999,
+    "question":"Quels sont les 5 joueurs principaux d'OKC et leurs statistiques de points, rebonds et passes ?",
+    "question_id":"C03",
+    "category":"COMPLEXE",
+    "difficulty":2
+  },
+  {
+    "user_input":"Qui sont les 3 joueurs qui perdent le plus de balles (turnovers) et quel est leur ratio passes\/pertes ?",
+    "retrieved_contexts":[
+      "name | team_code | tov | ast_to\n------------------------------------------------------------\nTrae Young | ATL | 357.0 | 2.48\nJames Harden | LAC | 340.0 | 2.01\nCade Cunningham | DET | 308.0 | 2.06"
+    ],
+    "response":"Les trois joueurs qui perdent le plus de balles (turnovers) sont : **Trae Young** (357 turnovers, ratio passes\/pertes de 2.48), **James Harden** (340 turnovers, ratio passes\/pertes de 2.01) et **Cade Cunningham** (308 turnovers, ratio passes\/pertes de 2.06).",
+    "reference":"1. Trae Young (ATL) : 357 turnovers. 2. James Harden (LAC) : 340 turnovers. 3. Cade Cunningham (DET) : 308 turnovers.",
+    "faithfulness":1.0,
+    "context_recall":1.0,
+    "context_precision":0.9999999999,
+    "question":"Qui sont les 3 joueurs qui perdent le plus de balles (turnovers) et quel est leur ratio passes\/pertes ?",
+    "question_id":"C04",
+    "category":"COMPLEXE",
+    "difficulty":2
+  },
+  {
+    "user_input":"Quel joueur a le meilleur impact global sur le jeu selon le PIE (Player Impact Estimate), avec au moins 50 matchs joués ?",
+    "retrieved_contexts":[
+      "name | team_code | pie\n------------------------------------------------------------\nGiannis Antetokounmpo | MIL | 21.0"
+    ],
+    "response":"Giannis Antetokounmpo (PIE = 21.0)",
+    "reference":"Giannis Antetokounmpo (MIL) affiche le meilleur PIE avec 21,0 parmi les joueurs ayant disputé au moins 50 matchs.",
+    "faithfulness":0.3333333333,
+    "context_recall":1.0,
+    "context_precision":0.9999999999,
+    "question":"Quel joueur a le meilleur impact global sur le jeu selon le PIE (Player Impact Estimate), avec au moins 50 matchs joués ?",
+    "question_id":"C05",
+    "category":"COMPLEXE",
+    "difficulty":2
+  },
+  {
+    "user_input":"Quel joueur a le meilleur ratio passes décisives \/ pertes de balle (AST\/TO) parmi ceux ayant joué 50 matchs ou plus ?",
+    "retrieved_contexts":[
+      "name | team_code | ast_to\n------------------------------------------------------------\nTyrese Haliburton | IND | 5.61"
+    ],
+    "response":"Tyrese Haliburton (IND) a un ratio passes décisives \/ pertes de balle (AST\/TO) de 5.61 parmi les joueurs ayant joué 50 matchs ou plus.",
+    "reference":"Tyrese Haliburton (IND) possède le meilleur ratio AST\/TO avec 5,61.",
+    "faithfulness":0.6666666667,
+    "context_recall":1.0,
+    "context_precision":0.9999999999,
+    "question":"Quel joueur a le meilleur ratio passes décisives \/ pertes de balle (AST\/TO) parmi ceux ayant joué 50 matchs ou plus ?",
+    "question_id":"C06",
+    "category":"COMPLEXE",
+    "difficulty":2
+  },
+  {
+    "user_input":"Quel joueur a le taux d'utilisation (USG%) le plus élevé parmi les joueurs ayant joué au moins 50 matchs ?",
+    "retrieved_contexts":[
+      "name | team_code | usg_pct | gp\n------------------------------------------------------------\nGiannis Antetokounmpo | MIL | 34.6 | 67"
+    ],
+    "response":"Giannis Antetokounmpo a le taux d'utilisation (USG%) le plus élevé parmi les joueurs ayant joué au moins 50 matchs, avec un USG% de 34.6.",
+    "reference":"Giannis Antetokounmpo (MIL) a le taux d'utilisation le plus élevé avec 34,6 %.",
+    "faithfulness":0.5,
+    "context_recall":1.0,
+    "context_precision":0.9999999999,
+    "question":"Quel joueur a le taux d'utilisation (USG%) le plus élevé parmi les joueurs ayant joué au moins 50 matchs ?",
+    "question_id":"C07",
+    "category":"COMPLEXE",
+    "difficulty":2
+  },
+  {
+    "user_input":"Compare le True Shooting % (TS%) et l'Effective Field Goal % (EFG%) du meilleur joueur dans chaque catégorie.",
+    "retrieved_contexts":[
+      "best_ts_name | best_ts_value | best_efg_name | best_efg_value\n------------------------------------------------------------\nAlondes Williams | 125.0 | Alondes Williams | 125.0"
+    ],
+    "response":"Le meilleur joueur dans les deux catégories (True Shooting % et Effective Field Goal %) est Alondes Williams, avec une valeur de 125.0 pour les deux statistiques. Cela signifie qu'il est le joueur ayant le True Shooting Percentage (TS%) et l'Effective Field Goal Percentage (EFG%) les plus élevés selon les données fournies.",
+    "reference":"Meilleur TS% : Jarrett Allen (CLE) avec 72,4 %. Meilleur EFG% : Jaxson Hayes (LAL) avec 72,2 %.",
+    "faithfulness":1.0,
+    "context_recall":0.0,
+    "context_precision":0.0,
+    "question":"Compare le True Shooting % (TS%) et l'Effective Field Goal % (EFG%) du meilleur joueur dans chaque catégorie.",
+    "question_id":"C09",
+    "category":"COMPLEXE",
+    "difficulty":3
+  },
+  {
+    "user_input":"Quelles équipes ont le roster le plus jeune en moyenne ?",
+    "retrieved_contexts":[
+      "team_code | team_name | avg_age\n------------------------------------------------------------\nBKN | Brooklyn Nets | 24.0\nUTA | Utah Jazz | 24.22222222222222\nPOR | Portland Trail Blazers | 24.526315789473685\nWAS | Washington Wizards | 24.789473684210527\nOKC | Oklahoma City Thunder | 24.833333333333332"
+    ],
+    "response":"Les équipes avec le roster le plus jeune en moyenne sont, dans l'ordre : Brooklyn Nets (24.0 ans), Utah Jazz (24.22 ans), Portland Trail Blazers (24.53 ans), Washington Wizards (24.79 ans) et Oklahoma City Thunder (24.83 ans).",
+    "reference":"Les équipes avec les rosters les plus jeunes sont : 1. Brooklyn Nets (BKN) : 24,0 ans de moyenne. 2. Utah Jazz (UTA) : 24,2 ans. 3. Portland Trail Blazers (POR) : 24,5 ans.",
+    "faithfulness":1.0,
+    "context_recall":1.0,
+    "context_precision":0.9999999999,
+    "question":"Quelles équipes ont le roster le plus jeune en moyenne ?",
+    "question_id":"C10",
+    "category":"COMPLEXE",
+    "difficulty":3
+  },
+  {
+    "user_input":"ki a le + de point cette seson ?",
+    "retrieved_contexts":[
+      "name | team_code | pts\n------------------------------------------------------------\nShai Gilgeous-Alexander | OKC | 2485.0"
+    ],
+    "response":"Shai Gilgeous-Alexander (OKC) a le plus de points cette saison avec 2485 points.",
+    "reference":"Shai Gilgeous-Alexander (OKC) est le meilleur marqueur de la saison avec 2 485 points.",
+    "faithfulness":0.6666666667,
+    "context_recall":1.0,
+    "context_precision":0.9999999999,
+    "question":"ki a le + de point cette seson ?",
+    "question_id":"B01",
+    "category":"BRUITÉ",
+    "difficulty":1
+  },
+  {
+    "user_input":"Donne moi les stats de Wembanyama… je crois qu'il joue à San Antonio ?",
+    "retrieved_contexts":[
+      "name | team_name | stat_id | player_id | gp | w | l | min_total | pts | fgm | fga | fg_pct | three_pa | three_pct | ftm | fta | ft_pct | oreb | dreb | reb | ast | tov | stl | blk | pf | plus_minus | offrtg | defrtg | netrtg | ast_pct | ast_to | oreb_pct | dreb_pct | reb_pct | efg_pct | ts_pct | usg_pct | pace | pie | poss | dd2 | td3\n------------------------------------------------------------\nVictor Wembanyama | San Antonio Spurs | 71 | 71 | 46 | 21 | 25 | 33.2 | 1118.0 | 409.0 | 856.0 | 47.6 | 405.0 | 35.2 | 156.0 | 189.0 | 83.6 | 83.0 | 423.0 | 506.0 | 170.0 | 147.0 | 51.0 | 175.0 | 106.0 | 2.2 | 112.5 | 110.0 | 2.5 | 18.4 | 1.13 | 5.4 | 25.5 | 15.9 | 55.9 | 59.4 | 30.0 | 101.0 | 16.8 | 3223.0 | 28 | 1"
+    ],
+    "response":"Voici les statistiques de Victor Wembanyama pour la saison en cours (2023-2024) avec les San Antonio Spurs :\n\n- **Matchs joués (GP)** : 46\n- **Minutes par match (MPG)** : 33.2\n- **Points par match (PPG)** : 24.3 (1118.0 points au total)\n- **Rebonds par match (RPG)** : 11.0 (506.0 rebonds au total)\n- **Passes décisives par match (APG)** : 3.7 (170.0 passes décisives au total)\n- **Interceptions par match (SPG)** : 3.2 (147.0 interceptions au total)\n- **Contres par match (BPG)** : 1.1 (51.0 contres au total)\n- **Tirs réussis\/pris (FG)** : 409\/856 (47.6%)\n- **Tirs à 3 points réussis\/pris (3P)** : 142\/405 (35.2%)\n- **Lancers francs réussis\/pris (FT)** : 156\/189 (83.6%)\n- **Efficacité aux tirs (eFG%)** : 55.9%\n- **Pourcentage de tir global (TS%)** : 59.4%\n- **Usage rate (USG%)** : 30.0%\n- **Plus\/Minus** : +2.2\n- **Double-doubles (DD2)** : 28\n- **Triple-doubles (TD3)** : 1\n\nIl est bien le joueur clé des San Antonio Spurs cette saison.",
+    "reference":"Oui, Victor Wembanyama joue bien aux San Antonio Spurs (SAS). Il totalise 1 118 points, 506 rebonds et 175 contres cette saison.",
+    "faithfulness":0.5263157895,
+    "context_recall":1.0,
+    "context_precision":0.9999999999,
+    "question":"Donne moi les stats de Wembanyama… je crois qu'il joue à San Antonio ?",
+    "question_id":"B02",
+    "category":"BRUITÉ",
+    "difficulty":1
+  },
+  {
+    "user_input":"C'est quoi le NETRTG déjà ? Et qui a le pire ?",
+    "retrieved_contexts":[
+      "27                      TD3            Triple-doubles (≥10 dans trois catégories principales)\n28                    + \/ -  Plus-Minus (écart de score lorsque le joueur est sur le terrain)\n29                   OFFRTG             Offensive Rating (points marqués par 100 possessions)\n30                   DEFRTG           Defensive Rating (points encaissés par 100 possessions)\n31                   NETRTG                                      Net Rating = OFFRTG - DEFRTG\n32                     AST%     Pourcentage d'assists – implication dans les passes décisives\n33                   AST\/TO                                    Ratio passes \/ pertes de balle\n34                AST RATIO                              Ratio d’assists pour 100 possessions\n35                    OREB%           Pourcentage de rebonds offensifs parmi ceux disponibles\n36                    DREB%                                                  Idem en défensif\n37                     REB%              Pourcentage de rebonds totaux parmi ceux disponibles\n38                 TO RATIO              Turnover Ratio – pertes de balle par 100 possessions\n39                     EFG%                     Effective Field Goal % (pondère les 3 points)\n40                      TS%               True Shooting % (inclut FG et FT dans l'efficacité)\n41                     USG%                Usage Rate – % des actions utilisées par le joueur",
+      "Code Nom complet de l'équipe\n0   ATL           Atlanta Hawks\n1   BKN           Brooklyn Nets\n2   BOS          Boston Celtics\n3   CHA       Charlotte Hornets\n4   CHI           Chicago Bulls\n5   CLE     Cleveland Cavaliers\n6   DAL        Dallas Mavericks\n7   DEN          Denver Nuggets\n8   DET         Detroit Pistons\n9   GSW   Golden State Warriors\n10  HOU         Houston Rockets\n11  IND          Indiana Pacers\n12  LAC    Los Angeles Clippers\n13  LAL      Los Angeles Lakers\n14  MEM       Memphis Grizzlies\n15  MIA              Miami Heat\n16  MIL         Milwaukee Bucks\n17  MIN  Minnesota Timberwolves\n18  NOP    New Orleans Pelicans\n19  NYK         New York Knicks\n20  OKC   Oklahoma City Thunder\n21  ORL           Orlando Magic\n22  PHI      Philadelphia 76ers\n23  PHX            Phoenix Suns\n24  POR  Portland Trail Blazers\n25  SAC        Sacramento Kings\n26  SAS       San Antonio Spurs\n27  TOR         Toronto Raptors\n28  UTA               Utah Jazz\n29  WAS      Washington Wizards",
+      "84   Analyse du top 15 des joueurs en nombre de points                      NaN                          NaN                               NaN                                          NaN                                         NaN                NaN                               NaN\n85                                                 NaN                      NaN                          NaN                               NaN                                          NaN                                         NaN                NaN                               NaN\n86                                                 NaN                      NaN                          NaN                               NaN                                          NaN                                         NaN                NaN                               NaN\n87                                             Players    Nombre de point total                          FGM       Pourcentage de tirs réussis  Pourcentage de réussite aux tirs à 3 points  Pourcentage de réussite aux lancers francs  Rebonds offensifs  Estimation de l’impact du joueur\n88                                                 NaN                      NaN                          NaN                               NaN                                          NaN                                         NaN                NaN                               NaN",
+      "Dictionnaire des données                                                        Unnamed: 1\n0                    Player                                                     Nom du joueur\n1                      Team                               Équipe du joueur (code à 3 lettres)\n2                       Age                                                     Âge du joueur\n3                        GP                             Nombre de matchs joués (Games Played)\n4                         W             Nombre de victoires de l'équipe lors des matchs joués\n5                         L                                                Nombre de défaites\n6                       Min                                 Minutes moyennes jouées par match\n7                       PTS                               Points marqués en moyenne par match\n8                       FGM                         Tirs réussis par match (Field Goals Made)\n9                       FGA                     Tirs tentés par match (Field Goals Attempted)\n10                      FG%                                  Pourcentage de réussite aux tirs\n11                 15:00:00                                 Minutes jouées après 15:00 de jeu\n12                      3PA                                  Tirs à 3 points tentés par match\n13                      3P%                                Pourcentage de réussite à 3 points",
+      "41                     USG%                Usage Rate – % des actions utilisées par le joueur\n42                     PACE                        Rythme de jeu (possessions par 48 minutes)\n43                      PIE           Player Impact Estimate – évaluation globale de l’impact\n44                     POSS                                Nombre total de possessions jouées"
+    ],
+    "response":"Le **NETRTG** (Net Rating) est une statistique qui représente l'écart de points par 100 possessions entre l'équipe lorsque le joueur est sur le terrain et lorsqu'il est absent. Il se calcule comme suit : **NETRTG = OFFRTG - DEFRTG**, où l'OFFRTG est le Offensive Rating (points marqués par 100 possessions) et le DEFRTG est le Defensive Rating (points encaissés par 100 possessions).\n\nCependant, le contexte fourni ne contient pas d'informations sur les joueurs ou les équipes ayant le pire NETRTG. Je ne peux donc pas répondre à cette partie de la question.",
+    "reference":"Le Net Rating (NETRTG) mesure l'écart de points marqués vs encaissés par 100 possessions lorsque le joueur est sur le terrain. Le joueur avec le pire NETRTG parmi ceux ayant joué 50+ matchs est Cody Williams (UTA) avec -15,5.",
+    "faithfulness":0.8333333333,
+    "context_recall":0.5,
+    "context_precision":0.9999999999,
+    "question":"C'est quoi le NETRTG déjà ? Et qui a le pire ?",
+    "question_id":"B04",
+    "category":"BRUITÉ",
+    "difficulty":2
+  },
+  {
+    "user_input":"Est-ce que LeBron James a des bonnes stats cette saison ?",
+    "retrieved_contexts":[
+      "name | team_name | gp | pts | reb | ast | ts_pct | netrtg\n------------------------------------------------------------\nLeBron James | Los Angeles Lakers | 70 | 1708.0 | 546.0 | 574.0 | 60.4 | -1.3"
+    ],
+    "response":"Les statistiques de LeBron James cette saison sont les suivantes : 1708 points, 546 rebonds, 574 passes décisives, avec un pourcentage de tir vrai (TS_pct) de 60.4% et un net rating (netrtg) de -1.3. Son nombre de matchs joués est de 70.\n\nPour évaluer si ses stats sont bonnes, voici quelques éléments :\n- **Points par match** : Environ 24.4 pts\/match (1708 points \/ 70 matchs), ce qui est excellent pour un joueur de son âge et de son expérience.\n- **Rebonds par match** : Environ 7.8 rebonds\/match, solide pour un ailier.\n- **Passes décisives par match** : Environ 8.2 ast\/match, ce qui montre son rôle clé dans l'attaque des Lakers.\n- **TS_pct (60.4%)** : Très bon pourcentage de tir, indiquant une efficacité élevée.\n- **Net rating (-1.3)** : Un net rating négatif signifie que l'équipe a un bilan moins bon lorsque LeBron est sur le terrain par rapport à quand il ne l'est pas. Cela peut indiquer des difficultés collectives autour de lui cette saison.\n\nEn résumé, ses stats individuelles sont très bonnes, voire excellentes, mais le net rating négatif suggère que son impact collectif n'est pas optimal cette saison.",
+    "reference":"LeBron James n'apparaît pas dans le jeu de données disponible pour cette saison. Il est possible qu'il n'ait pas disputé suffisamment de matchs ou que ses données ne soient pas incluses dans ce dataset.",
+    "faithfulness":0.5882352941,
+    "context_recall":0.0,
+    "context_precision":0.0,
+    "question":"Est-ce que LeBron James a des bonnes stats cette saison ?",
+    "question_id":"B05",
+    "category":"BRUITÉ",
+    "difficulty":2
+  },
+  {
+    "user_input":"Kobe Bryant est le meilleur non ?",
+    "retrieved_contexts":[
+      "That's the most\nfrustrating part:. He's so damn good he doesn't need it, but does all that bitch\nmade shit.\nYou think Kobe would be caught doing that shit ever? Bird? Jordan? Kareem? Nash? Shaw? Timmy\nD? KG? Hellllll fuckin no.\nmight have drawn fouls, but drawing fouls doing honest moves and\ntaking actual shots attempting to make a bucket is a skill: SGA throwing himself to the ground\nwhen someone brushes his arm, and just flinging the ball in the general direction of the hoop is\nnot a skill, it's some bitch ass cheese: Like the kid who won at mortal kombat by spamming the leg\nsweep or\nuppercut. Yeah; you won; but everything thinks you're lame as fuck\n0\nRépondre\nréponse supplémentaire\ncaughtinthought\n-15 j\nit's kind of a double-edged sword for the NBA one of the reasons it is so\npopular is due to its\ncharacter branding; but if those characters don't make it_\nRépondre\n[supprimé]\n~15 j\nComm. du top 1%\ndon't really get why fans of the sport are obsessed with the ratings and popularity of the nba. Just enjoy\nbasketball\n692\nRépondre\ncaptain_ahabb\n-15 j\nComm. du top 1%\nPeople use the ratings decline as a proxy for whatever aspect of the league\ndislike\n242\nRépondre\nCharming_Motor_919\n~15 j\nModifié il y a -15 j\nThe worst is when it briefly became a proxy for politics. Exhausting.\nEdit:\nthink some have misinterpreted what | said.\nwill clarify. When people used NBA ratings to\nmake arguments about politics,\nfound it to be\nexhausting:\nhttps:\/\/www reddit.comirinbalcommentsl 1kxixihlhow",
+      "LeBron.\nTwo teams playing great team ball, one with the \"boring\" MVP and the other the most overrated\nplayer in the game. The media domt know what yo do.\n4\nRépondre\nIfYouKnowYouKnowYaNo\n-14 j\nhttps:\/\/www reddit.comirinbalcommentsl 1kxixihlhow\nis_it_that\nthe_two\nbest_teams\nthe\nplayoffsl\n2\/23\nthing\nthey\nThey'\n12\/06\/2025 13.09\nHow is it that the two best teams in the\nplayoffs based on stats\nhaving\nchance of playing against each other in the Finals, is\nAccéder au contenu principal\nSe connecter\nthink of that rivals his frequency of falls to the floor per game; and that's Embiid.\nWhat do\nhave in common? Truly elite; generational talents. INCREDIBLE players. Also;\negregious flopping foul bating bitches that people hate because\nplay the game like that\ndespite their insane\nAlso; it is a common argument that them winning snubbed a more\ndeserving player that happened to be Jokic both times, because; you know; he's the best player in\nthe world right now.\nSGA is a top 3-5 player in this league.\ndon't\nhim that. He's so\nBut it's hard to give him\nhis flowers, celebrate him; or respect him when he chooses to play the game that way; manipulate\nthe system instead of just hoopin honorably and ethically.\nHe could be the MVP without all the stupid flailing, cartoon character as falls; and all the acting.\nThat's the most\nfrustrating part:. He's so damn good he doesn't need it, but does all that bitch\nmade shit.",
+      "played\n200\nminutes, and if you include years with a single series, Jordan's most efficient is would be Reggie's 11th\nmost. If you look at only postseasons 29 points per 75 or higher; Reggie has the three most efficient;\nand although only one of them was more than one series, that was a\nrun; and the other two he\nwent down in the first round scoring 30 on 69% & 72% TS.\nJordan's calling card was a volume that Reggie;\nor\nanyone else for that matter, could not match year\nafter year. But he never had a spike in efficiency on that volume like we've seen from Durant or\nLeBron . or Reggie: The only players with multiple postseasons at 29\n10 are those 3 and Kawhi. And\nit's not like Jordan was inefficient. He had 4 postseasons at 32 +5, only other player with more than\nwas LeBron with 3. (There's a 37 +9 and a 32 +14 in there for LeBron Imao)\n62\nRépondre\nAo\n-10 j\nComm; du\n1%\nOfc; that's why you can't claim Reggie is the best playoff scorer ever.\nBut to have a sizeable efficiency margin over other all-time greats while\na first option across a\nbig sample of playoff games is still extremely impressive and enough to crown him as the most\nefficient.\n31\nRépondre\nblockass\n[supprimé]\n-10j\ngza_liquidswords\n~10 j\nTo me this is not the\nyou can't use these stats to suggest that Reggie is superior to MJ. You can\nmake the case that (in playoffs at least) , that he is most comparable top 25 all time NBA players\n(almost everyone on this list) , which is a bit\nsurprising\n4 1\nRépondre\nAngularbackhands",
+      "~15 j\nNBA is here for the highlights and promoting superstars, basketball is like the 3rd most important\nthing\n178\nRépondre\nForsakenDragonfruit4\n-15j\nComplaining about the modern game; comparing all time greats and tabloid discussions firmly\npush basketball out of the top5 basketball related topics\n61\nRépondre\nngrimma\n~15 j\nhttps:\/\/www reddit.comirinbalcomments\/ 1kxixihlhow_is\nthat_the_two\nbest_teams\nthe\nplayoffsl\n1\/23\nthey\nkilling\nevery\n12\/06\/2025 13.09\nHow is it that the two best teams in the\nplayoffs based on stats\nhaving\nchance of playing against each other in the Finals, is\nAccéder au contenu principal\nSe connecter\nDLottchula\n~14 j\nIm in the camp that nothing should be made for the casuals they are gonna like it or move on\nto the next\nanyways. If we are\nmaking everything for the algorithm and for engagement\nwhat's the point of the actual thing.\n0\nRépondre\n2 réponses supplémentaires\nThe_Grim_Adventurer\n-14 j\nRatings would be so much better if\ndidnt make it famn near impossible to watch games\nall season\n4 1\nRépondre\nisgtpepperslaststand\n-14 j\nSomehow nba fans have convinced themselves that market size correlates to good or bad basketball\n4 5\nRépondre\nGunstarGreen\n-15 j\nIts a\nsuperstars league. Its not Lakers vs Minny; its LeBron vs Antman:\n're desperate for superstars\nyo be in big games. ESPN could be talking about bowling and they'd turn it into a discussion on\nLeBron.\nTwo teams playing great team ball, one with the \"boring\" MVP and the other the most overrated",
+      "itself as well.)\nRépondre\nFalse_Pear1860\n~10j\nWhat is this table sorted by?? Though it was crazy that\nwas so far down the list, but then realized he\nshould be like 3rd place if sorted by rTS\nRépondre\nLQ\nAkipella\n~10j\nComm. du top 1%\nfixed it\n4 3\nRépondre\nZazi751\n-10j\nIf you don't also provide how rTS is calculated then the whole list is garbage. Some of these guys played\nthrough multiple eras with significant shifts\nRépondre\nijoeblow\n~10 j\nWow,\nthough DWade would be #1 seeing how he was gifted 503,244 free throws in the 2006 playoffs.\nRépondre\nArtimusjones88\n-10j\nHow many All NBA selections? First teams? He was never a top 4 guard. Good PR\n4\nRépondre\nNolofinwe_2782\n-10j\nHe's one of the most overrated players of all time\nNow if he played in this era? 25 ppg probably\nRépondre\nnotatowel42o\n-10 j\nReggie is one of the most overrated players of all time. You remove that Knicks series he would be a\nforgotten player.\nRépondre\nIcy-Role-6333\n-10j\nhttps:llwww reddit.comlrInbalcomments\/1l161bplreggie\nmiller_is\nthe_most_efficient_first\n30\/36\nCurry\nThey\noptionl\n12\/06\/2025 13:11\nReggie Miller is the most efficient first option in NBA playoff history\nrInba\nAccéder au contenu principal\nSe connecter\nSo efficient he never won the playoffs\nRépondre\nJavd318\n~7j\nReally illuminates how useless efficiency is as a metric\nRépondre\nimperialmoose\n-10 j\nInteresting little set of stats! Regarding that last sentence; you're not accounting for all sorts of parts of"
+    ],
+    "response":"Le contexte fourni ne contient pas d'éléments permettant de déterminer si Kobe Bryant est considéré comme le meilleur joueur ou non. Les discussions portent principalement sur des comparaisons entre joueurs, des critiques sur le style de jeu moderne (comme le flopping), ou des débats sur l'efficacité et la popularité de la NBA. Aucune réponse claire ou factuelle ne peut être extraite pour répondre à cette question.",
+    "reference":"Kobe Bryant a pris sa retraite en 2016 et n'est pas présent dans les données de cette saison. Le meilleur marqueur de la saison actuelle est Shai Gilgeous-Alexander (OKC) avec 2 485 points.",
+    "faithfulness":1.0,
+    "context_recall":0.0,
+    "context_precision":0.0,
+    "question":"Kobe Bryant est le meilleur non ?",
+    "question_id":"B06",
+    "category":"BRUITÉ",
+    "difficulty":1
+  }
+]
