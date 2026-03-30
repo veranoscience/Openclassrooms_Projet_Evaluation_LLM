@@ -19,7 +19,7 @@ Combine un pipeline **RAG** (recherche sémantique) et un **Tool SQL** (requête
 ┌──────────────────┐       ┌──────────────────────┐
 │  load_excel_to   │       │     indexer.py        │
 │  _db.py          │       │  (chunking + embed.)  │
-│  (Pydantic ✓)    │       │  (langchain-text-     │
+│  (Pydantic  )    │       │  (langchain-text-     │
 │                  │       │   splitters + Mistral)│
 └────────┬─────────┘       └──────────┬────────────┘
          │                            │
@@ -54,7 +54,7 @@ Combine un pipeline **RAG** (recherche sémantique) et un **Tool SQL** (requête
          ┌─────────────────────┐
          │  LLM Mistral        │
          │  Synthèse réponse   │
-         │  (Pydantic AI ✓)    │
+         │  (Pydantic AI )     │
          └──────────┬──────────┘
                     │
           ┌─────────┴──────────┐
